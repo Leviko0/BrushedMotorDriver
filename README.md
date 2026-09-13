@@ -7,7 +7,8 @@ Schematic: <br />
 <br />
 
 PCB: <br />
-<img width="602" height="767" alt="image" src="https://github.com/user-attachments/assets/76a537ed-2b97-4ce9-8533-e55e217455e9" />
+<img width="769" height="901" alt="image" src="https://github.com/user-attachments/assets/323915d6-56ff-4e8b-b5f9-6b31a791b78a" />
+
 
 
 
