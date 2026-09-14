@@ -10,7 +10,14 @@ This driver board is designed for two 12V brushed motors based on an ESP32 and t
 - **Power input:** XT60 connector for a 4S LiPo battery
 - **Regulator:** TLV75533 LDO, 3.3V rail for the ESP32
 - **Programming/data:** USB-C connector (USB 2.0)
-- **Thermal protection:** built into the DRV8245 driver stage
+
+## PCB design
+
+- **4-layer stackup** with dedicated ground and power planes, to separate the ESP32's digital/RF signals from the motor drivers' switching noise
+- **Thermal via arrays** under the DRV8245 exposed pads for heat dissipation
+- **Ground stitching vias** to keep return paths low-impedance across the board
+- **Trace widths scaled by current:** wider power traces for the motor outputs, standard-width traces for signal/logic
+
 
 Schematic: <br />
 <img width="754" height="793" alt="image" src="https://github.com/user-attachments/assets/f6bb485d-7016-4d02-aba1-9641d477df93" />
